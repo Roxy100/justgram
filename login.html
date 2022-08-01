@@ -4,7 +4,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/login.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Spline+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
     <title>JUSTGRAM</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <h1 class="justgram-title">Justgram</h1>
+      <input
+        type="text"
+        id="input-id"
+        placeholder="전화번호, 사용자 이름 또는 이메일"
+      />
+      <input type="password" id="input-pw" placeholder="비밀번호" />
+      <button id="login-btn" disabled>로그인</button>
+      <a href="#" id="search-pw">비밀번호를 잊으셨나요?</a>
+    </div>
+  </body>
 </html>
