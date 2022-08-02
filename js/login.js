@@ -34,7 +34,12 @@ function changeBtnstate() {
   }
 }
 
+function onLogInClick() {
+  location.href = 'main.html';
+}
+
 inputId.addEventListener('keyup', checkId);
 inputPw.addEventListener('keyup', checkPw);
 inputId.addEventListener('keyup', changeBtnstate);
 inputPw.addEventListener('keyup', changeBtnstate);
+loginBtn.addEventListener('click', onLogInClick);
