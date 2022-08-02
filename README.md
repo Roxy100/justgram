@@ -29,3 +29,19 @@
 #### CSS 작성
 
 HTML 작성 단계가 끝났다면, css 파일을 작성하여주세요.
+
+## 미션2 ID, PW 입력 시 로그인 버튼 활성화 기능 & ID, PW validation
+
+#### 입력 이벤트 등록
+
+Input 요소(Element)에 이벤트를 등록하여 글자 변화를 감지하게 만들어주세요.
+
+- 요소에 addEventListener로 이벤트 등록
+- ID 입력칸과(AND) PW 입력칸에 글자가 하나라도 들어가면 로그인 버튼 활성화
+
+#### 유효성 검증 함수 작성
+
+- [Mission 2](https://www.notion.so/Project-JUSTGRAM-UI-876b6ef09ccb4058b918f91744f5db8b) 에서 등록된 이벤트에 사용할 유효성 검증 함수 작성
+- 실제 로그인 하는 경우를 생각하며 **validation(유효성 검사)** 기능을 추가해주세요.
+- 유효성 검증에 따른 버튼 활성화 분기
+- ex) id >>> '@' 포함 / pw >>> 5글자 이상
