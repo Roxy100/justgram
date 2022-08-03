@@ -1,5 +1,6 @@
 const inputId = document.getElementById('input-id');
 const inputPw = document.getElementById('input-pw');
+const loginForm = document.getElementById('login-form');
 const loginBtn = document.getElementById('login-btn');
 
 loginBtn.disabled = true;
@@ -34,12 +35,13 @@ function changeBtnstate() {
   }
 }
 
-function onLogInClick() {
-  location.href = 'main.html';
+function onLoginForm(e) {
+  e.preventDefault();
+  // 커스텀 로직
 }
 
 inputId.addEventListener('keyup', checkId);
 inputPw.addEventListener('keyup', checkPw);
 inputId.addEventListener('keyup', changeBtnstate);
 inputPw.addEventListener('keyup', changeBtnstate);
-loginBtn.addEventListener('click', onLogInClick);
+loginForm, addEventListener('submit', onLoginForm);
